@@ -11,7 +11,7 @@ const About = () => {
                 <img className="about-img" src="/about.svg" />
                 <div className="about-text-container">
                     <div className="about-text">Keyboard - is a typing speed test app created primarily for educational purposes and inspired by its most famous analogue - 10 Fast Fingers </div>
-                    <div className="about-text">Made with the React, Node, Express and MongoDB. You can take a look at the code at github.com/justcallmeRyan</div>
+                    <div className="about-text">Made with the React, Node, Express and MongoDB. You can take a look at the code at <a href="https://github.com/justcallmeRyan/typingtest">github.com/justcallmeRyan </a> </div>
                 </div>
             </div>
             <Footer />

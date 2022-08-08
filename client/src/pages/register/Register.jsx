@@ -1,5 +1,4 @@
-import React, {useContext, useState} from 'react';
-import {AuthContext} from "../../context/AuthContext";
+import React, { useState } from 'react';
 import axios from "axios";
 import { useNavigate } from "react-router-dom"
 import Navbar from "../../components/Navbar/Navbar";
