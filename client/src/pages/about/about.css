@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(322.35deg, #D1F0FF 7.71%, rgba(208, 231, 242, 0) 71.94%), #E5EBE6;
+
+}
+
+.about-container {
+    display:flex;
+    justify-content: center;
+    gap: 9rem;
+    margin-top: 4rem;
+}
+
+.about-img {
+    width: 729px;
+    height: 736px;
+}
+
+.about-text-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+
+    gap:2rem;
+}
+.about-text {
+    justify-self: center;
+    align-self: center;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+}

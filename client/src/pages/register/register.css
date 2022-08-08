@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(322.35deg, #D1F0FF 7.71%, rgba(208, 231, 242, 0) 71.94%), #E5EBE6;
+
+}
+
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items:center;
+    margin-top: 4rem;
+
+}
+
+.register-inner-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 866px;
+    background-color: white;
+    border-radius: 15px;
+    gap: 10px;
+    padding-bottom: 50px;
+}
+
+.form-header{
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    margin-top: 36px;
+    margin-bottom: 6px;
+}
+
+.form-already {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.form-fb{
+    width: 350px;
+    height: 32px;
+    background: #3976EA;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-fb-text {
+    color: white;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.form-google{
+    width: 350px;
+    height: 32px;
+    background: #D7391C;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.register-form input {
+    width: 350px;
+    height: 29px;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+.register-form div {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.register-form {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.form-join {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 350px;
+    height: 29px;
+    background: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.6);
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form-join:hover {
+    background:grey;
+    border-color:grey;
+}
+
+.form-join span {
+    color: white;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}

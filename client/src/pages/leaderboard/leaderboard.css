@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(322.35deg, #D1F0FF 7.71%, rgba(208, 231, 242, 0) 71.94%), #E5EBE6;
+
+}
+
+.leaderboard-top-container {
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.leaderboard-main-content {
+    width: 730px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leaderboard-language-container {
+    display: flex;
+    flex-direction: row;
+}
+.leaderboard-language-picked {
+    cursor:pointer;
+    width: 50%;
+    height: 35px;
+    background: #FFFFFF;
+    border-radius: 12px 12px 0px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-size: 18px;
+    color: #202534;
+}
+.leaderboard-language-notpicked:hover{
+    background: #A1A1A1;
+}
+
+.leaderboard-language-notpicked {
+    cursor:pointer;
+    width: 50%;
+    height: 35px;
+    background: rgba(32, 37, 52, 0.2);
+    border-radius: 12px 12px 0px 0px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-size: 18px;
+    color: rgba(32, 37, 52, 0.6);
+
+
+}
+.leaderboard-english:disabled {
+    background: rgba(32, 37, 52, 0.2)
+}
+.leaderboard-language-text {
+
+}
+.leaderboard-circle-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    background: none;
+}
+.leaderboard-circle{
+    width: 8px;
+    height: 20px;
+
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    /*border-bottom-color: white;*/
+    /*border-left-color:white;*/
+
+}
+.leaderboard-table {
+    width: 730px;
+    height: 1231px;
+    background: #FFFFFF;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.leaderboard-text {
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.leaderboard-list {
+    margin-top: 3%;
+    margin-left: 3rem;
+    margin-bottom: 3%;
+    font-family: 'Poppins', serif;
+    display: flex;
+    flex-direction: row;
+}
+.leaderboard-username {
+    flex:5;
+}
+.leaderboard-wpm {
+    flex:2;
+}
+
+.leaderboard-hr {
+    border: 0.5px solid rgba(32, 37, 52, 0.3);
+    opacity: 30%;
+}
+
+
+.leaderboard-number{
+    flex:1
+}
+.leaderboard-username2{
+
+}

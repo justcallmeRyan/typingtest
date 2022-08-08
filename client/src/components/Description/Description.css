@@ -1,0 +1,31 @@
+.description-center{
+    margin-top: 192px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border-radius: 10px;
+    width: 486px;
+
+    gap: 0px;
+    background: linear-gradient(107.63deg, rgba(230, 249, 250, 0.35) 4.14%, rgba(230, 249, 250, 0) 59.93%);
+}
+
+.description-header{
+    font-family: 'Poppins', serif;
+    font-weight: 500;
+    margin-left: 32px;
+
+}
+.description-text {
+    font-family: 'Poppins', serif;
+    font-weight: 300;
+    font-size: 16px;
+    margin-left: 32px;
+    margin-right: 32px;
+}

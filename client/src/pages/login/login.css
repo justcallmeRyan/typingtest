@@ -1,0 +1,150 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(322.35deg, #D1F0FF 7.71%, rgba(208, 231, 242, 0) 71.94%), #E5EBE6;
+
+}
+
+.login-outest-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+
+}
+
+.login-outer-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 730px;
+    height: 544px;
+    background: rgba(255, 255, 255, 0.9);
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.04), 0px 2px 6px rgba(0, 0, 0, 0.04), 0px 10px 20px rgba(0, 0, 0, 0.04);
+    border-radius: 15px;
+    gap: 0.5rem;
+}
+
+.login-text {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.login-form-fb{
+    width: 350px;
+    height: 32px;
+    background: #3976EA;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login-form-fb-text {
+    color: white;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.login-form-google{
+    width: 350px;
+    height: 32px;
+    background: #D7391C;
+    border-radius: 5px;
+    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.2rem;
+}
+
+
+.text-field {
+    width: 350px;
+    height: 29px;
+    border: 1px solid rgba(32, 37, 52, 0.6);
+
+}
+
+.login-field {
+    gap: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.password-field {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    justify-content: space-around;
+}
+
+.login-prompt {
+    font-family: 'Poppins', serif;
+    align-self: flex-start;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+.password-prompt {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+
+}
+.password-prompt-forgot {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    text-decoration-line: underline;
+
+    color: rgba(32, 37, 52, 0.5);
+
+}
+
+.account-prompt {
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+}
+.account-prompt-join {
+    color: rgba(32, 37, 52, 0.5);
+    text-decoration-line: underline;
+}
+
+.login-button {
+    width: 350px;
+    height: 29px;
+    background: #202534;
+    border: 1px solid rgba(32, 37, 52, 0.6);
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    color: #FFFFFF;
+    font-family: 'Poppins', serif;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+.login-button:disabled {
+    cursor: not-allowed;
+    background: grey;
+}
+
+.hr {
+    margin-top: 50px;
+    margin-bottom: 1.5rem;
+    width: 730px;
+    border: 1px solid rgba(237, 237, 237, 1)
+}
