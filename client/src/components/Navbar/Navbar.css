@@ -69,13 +69,70 @@
 .nav-profile {
     display: flex;
     flex-direction: column;
+    align-items: center;
 
 }
 .nav-profile-img {
+    cursor: pointer;
     width: 47px;
     height: 47px;
+    border-radius: 50%;
+
+}
+.nav-profile-img:hover{
+    background: grey;
+    opacity: 55%;
 }
 
 .nav-current {
     color: #202534;
+}
+.profile-imgs {
+    width: 24px;
+    height: 24px;
+
+}
+.profile-menu-container {
+    position: absolute;
+    margin-top: 4.5rem;
+    margin-left: 2.8rem;
+    width: 158px;
+    height: 180px;
+    background: rgba(255, 255, 255, 0.7);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.profile-menu-item {
+    margin-left: 0.5rem;
+    margin-top: 1rem;
+    gap: 8px;
+    display: flex;
+    font-family: 'Poppins', serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer
+}
+.profile-menu-item:hover {
+    color:grey;
+}
+.profile-menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.profile-menu-button:hover{
+    color:grey;
+}
+
+.profile-line {
+    border: 0.5px solid rgba(32, 37, 52, 0.2);
+}
+
+.nickname{
+    color: #202534;
+    font-family: 'Poppins', serif;
 }
