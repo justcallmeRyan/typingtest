@@ -30,3 +30,5 @@ User profile page, editing profiles
 
 Navbar -> profile drop down menu
 
+Clean up CSS, add comments, clean up code
+
