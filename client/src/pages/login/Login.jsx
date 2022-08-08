@@ -4,7 +4,7 @@ import {Link, useNavigate} from "react-router-dom"
 import "./login.css"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
-import {useDispatch} from "react-redux";
+import {useDispatch, useSelector} from "react-redux";
 import {loginFailure, loginStart, loginSuccess} from "../../redux/userSlice";
 import {persistor} from "../../redux/store";
 import {changeResultDone} from "../../redux/resultSlice";
@@ -12,7 +12,7 @@ import {changeStart} from "../../redux/startSlice";
 import {changeLanguage, changePickedLanguage} from "../../redux/languageSlice";
 let waiting = false
 const Login = () => {
-
+    const {currentUser} = useSelector(state=>state.user)
     const [loginError, setLoginError] = useState(false)
     const [loginLoading, setLoginLoading] = useState(false)
     const [username, setUsername] = useState("");
@@ -42,8 +42,10 @@ const Login = () => {
     };
 
     return (
+
         <>
             <Navbar />
+            {currentUser? (<h1>You are logged in!</h1>) : (
             <div className="login-outest-container">
                 <div className="login-outer-container">
                     <h1 className="login-text">Log in</h1>
@@ -65,9 +67,8 @@ const Login = () => {
                     <div className="hr"></div>
                     <span className="account-prompt">Don't have an account? <span className="account-prompt-join"> <Link  to={"/register/"} style={{textDecoration: 'none', color: 'black'}}> Join </Link></span></span>
                 </div>
+            </div>)}
 
-
-            </div>
             <Footer />
         </>
 

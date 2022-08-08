@@ -11,17 +11,27 @@ body {
     gap: 8rem;
     margin-top: 4rem;
 }
+.profile-sidebar-container{
+    flex:2
+}
+.profile-info{
+    flex:6;
+    display:flex;
+    gap: 3rem;
 
+}
 .profile-sidebar {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    width: 224px;
+    width: 250px;
     height: 336px;
-    background: rgba(32, 37, 52, 0.8);
+    background: rgba(255, 255, 255, 0.7);
     border-radius: 0px 10px 10px 0px;
 
+
 }
+
 
 .sidebar-item {
     display: flex;
@@ -35,7 +45,14 @@ body {
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
-    color: #FFFFFF;
+    color: #202534;
+    cursor:pointer;
+}
+.sidebar-item:hover{
+    color:grey;
+}
+.sidebar-item-unpicked{
+    color: rgba(32, 37, 52, 0.5);
 }
 
 .big-profile-img {

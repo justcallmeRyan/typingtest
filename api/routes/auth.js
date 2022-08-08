@@ -5,7 +5,7 @@ const router = express.Router();
 
 //REGISTER
 router.post("/register", register)
-//SIGN IN
+//LOG IN
 router.post("/login", login)
 //GOOGLE
 router.post("/google", )

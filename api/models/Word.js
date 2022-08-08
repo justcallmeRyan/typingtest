@@ -2,15 +2,15 @@ import mongoose from "mongoose";
 
 
 const WordSchema = new mongoose.Schema({
-    name:{
+    name: {
         type: String,
         required: true
     },
-    language:{
+    language: {
         type: String,
         required: true
     },
-    words:{
+    words: {
         type: String,
         required: true
     },
