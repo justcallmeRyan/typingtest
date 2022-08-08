@@ -4,7 +4,7 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <div className="footer-container">
-            <h1 className="footer-text">justcallmeRyan </h1>
+            <div className="footer-text"><a href="https://github.com/justcallmeRyan/typingtest" style={{textDecoration: 'none', color: 'black'}}>justcallmeRyan</a> </div>
         </div>
     );
 };

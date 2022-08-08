@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from "axios";
-import { useNavigate } from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import Navbar from "../../components/Navbar/Navbar";
 import "./register.css"
 import Footer from "../../components/Footer/Footer";
@@ -29,7 +29,7 @@ const Register = () => {
             <div className="register-container">
                 <div className="register-inner-frame">
                     <div className="form-header">Join Keyboard</div>
-                    <div className="form-already"> Already have an account? <span>Log in</span></div>
+                    <div className="form-already"> Already have an account? <span className="account-prompt-join"> <Link  to={"/register/"} style={{textDecoration: 'none', color: 'black'}}> Log in </Link></span></div>
                     <div className="form-fb"><div className="form-fb-text">Join using Facebook</div></div>
                     <div className="form-google"><div className="form-fb-text">Join using Google</div></div>
                     <div className="register-form">
@@ -47,7 +47,7 @@ const Register = () => {
                         </div>
 
                     </div>
-                    <button className="form-join" onClick={handleRegister}> <span>Join</span></button>
+                    <button className="form-join" onClick={handleRegister}> <span>Register</span></button>
                     {writeErr&& <span>Username or email already used</span>}
                 </div>
             </div>

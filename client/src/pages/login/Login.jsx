@@ -1,6 +1,6 @@
 import React, {useContext, useState} from 'react';
 import axios from "axios";
-import { useNavigate } from "react-router-dom"
+import {Link, useNavigate} from "react-router-dom"
 import "./login.css"
 import Navbar from "../../components/Navbar/Navbar";
 import Footer from "../../components/Footer/Footer";
@@ -46,7 +46,7 @@ const Login = () => {
             <Navbar />
             <div className="login-outest-container">
                 <div className="login-outer-container">
-                    <h1 className="login-text">Login</h1>
+                    <h1 className="login-text">Log in</h1>
                     <div className="login-form-fb"><div className="login-form-fb-text">Login using Facebook</div></div>
                     <div className="login-form-google"><div className="login-form-fb-text">Login using Google</div></div>
                     <div className="login-field">
@@ -63,7 +63,7 @@ const Login = () => {
                     <button disabled={loginLoading} className="login-button" onClick={handleLogin} >Login</button>
                     {loginError&& <span>Login error!</span>}
                     <div className="hr"></div>
-                    <span className="account-prompt">Don't have an account? <span className="account-prompt-join">Join.</span></span>
+                    <span className="account-prompt">Don't have an account? <span className="account-prompt-join"> <Link  to={"/register/"} style={{textDecoration: 'none', color: 'black'}}> Join </Link></span></span>
                 </div>
 
 

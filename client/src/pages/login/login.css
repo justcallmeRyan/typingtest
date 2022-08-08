@@ -122,6 +122,9 @@ body {
     color: rgba(32, 37, 52, 0.5);
     text-decoration-line: underline;
 }
+.account-prompt-join:hover{
+    background:grey;
+}
 
 .login-button {
     width: 350px;
