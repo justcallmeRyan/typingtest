@@ -21,3 +21,12 @@ MONGO = link to Mongo cluster
 JWT = JWT secret
 
 NPM start each of the api and the client directories and it should be good to go.
+
+
+## Work in progress
+Register page /cookie handling, login via Google
+
+User profile page, editing profiles
+
+Navbar -> profile drop down menu
+
