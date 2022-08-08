@@ -4,13 +4,15 @@ This web application measures your typing speed in WPM (words per minute) in two
 
 The application will highlight your input as you type, show and save your results aswell as add your results to the leaderboards.
 
-Created mainly for educational purposes using MERN and Redux Toolkit 
+Created mainly for educational purposes using MERN and Redux Toolkit .
 
 
 
 ## Preview
 
 ![main menu preview](https://github.com/justcallmeRyan/typingtest/blob/master/mainmenu.png?raw=true)
+
+![typing preview](https://github.com/justcallmeRyan/typingtest/blob/master/previewgif.gif)
 
 
 ## Using the application
