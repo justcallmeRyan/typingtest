@@ -27,28 +27,33 @@ const Register = () => {
         <>
             <Navbar />
             <div className="register-container">
-                <div className="register-inner-frame">
-                    <div className="form-header">Join Keyboard</div>
-                    <div className="form-already"> Already have an account? <span className="account-prompt-join"> <Link  to={"/register/"} style={{textDecoration: 'none', color: 'black'}}> Log in </Link></span></div>
-                    <div className="form-fb"><div className="form-fb-text">Join using Facebook</div></div>
-                    <div className="form-google"><div className="form-fb-text">Join using Google</div></div>
-                    <div className="register-form">
-                        <div>
-                            <div>Username:</div>
-                            <input onChange={e=>setUsername(e.target.value)} type="text"/>
-                        </div>
-                        <div>
-                            <div>Email:</div>
-                            <input onChange={e=>setEmail(e.target.value)} type="email"/>
-                        </div>
-                        <div>
-                            <div>Password:</div>
-                            <input required={true} onChange={e=>setPassword(e.target.value)} type="password"/>
-                        </div>
+                <div className="register-outer-frame" >
+                    <div> <img src="/Humans.svg"/> </div>
+                    <div className="register-inner-frame">
+                        <div className="form-header">Join Keyboard</div>
+                        <div className="form-already"> Already have an account? <span className="account-prompt-join"> <Link  to={"/login/"} style={{textDecoration: 'none', color: 'black'}}> Log in </Link></span></div>
+                        <div className="form-fb"><div className="form-fb-text">Join using Facebook</div></div>
+                        <div className="form-google"><div className="form-fb-text">Join using Google</div></div>
+                        <div className="register-form">
+                            <div>
+                                <div>Username:</div>
+                                <input className="register-form-field" onChange={e=>setUsername(e.target.value)} type="text"/>
+                            </div>
+                            <div>
+                                <div>Email:</div>
+                                <input className="register-form-field" onChange={e=>setEmail(e.target.value)} type="email"/>
+                            </div>
+                            <div>
+                                <div>Password:</div>
+                                <input className="register-form-field" required={true} onChange={e=>setPassword(e.target.value)} type="password"/>
+                            </div>
 
+                        </div>
+                        <button className="form-join" onClick={handleRegister}> <span>Register</span></button>
+                        {writeErr&& <span>Username or email already used</span>}
                     </div>
-                    <button className="form-join" onClick={handleRegister}> <span>Register</span></button>
-                    {writeErr&& <span>Username or email already used</span>}
+
+
                 </div>
             </div>
             <Footer />

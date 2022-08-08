@@ -13,15 +13,22 @@ body {
     margin-top: 4rem;
 
 }
-
-.register-inner-frame {
+.register-outer-frame{
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 866px;
     background-color: white;
     border-radius: 15px;
+    gap: 5rem;
+}
+.register-inner-frame {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+
     gap: 10px;
     padding-bottom: 50px;
 }
@@ -89,6 +96,12 @@ body {
     display: flex;
     flex-direction: column;
     gap: 16px;
+
+}
+
+.register-form-field {
+    border: 1px solid rgba(32, 37, 52, 0.6);
+    border-radius: 5px;
 }
 
 .form-join {

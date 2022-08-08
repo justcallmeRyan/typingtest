@@ -20,6 +20,10 @@
 }
 .nav-components-spans:hover {
     color:grey;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #202534;
+    transition: ease 0.3s;
+
 }
 .nav-components-spans-picked {
     font-family: 'Poppins', serif;
@@ -28,6 +32,7 @@
     color: #202534;
     padding-bottom: 0.5rem;
     border-bottom: 1px solid #202534;
+
 }
 
 .nav-login-register {
@@ -62,6 +67,7 @@
 .nav-register:hover {
     background: grey;
     border: none;
+
 }
 
     /**/
